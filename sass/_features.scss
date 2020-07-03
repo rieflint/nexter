@@ -8,6 +8,17 @@
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 6rem;
   align-items: start;
+
+  @media only screen and (max-width: $bp-medium) {
+    margin: 7.5rem 0;
+    gap: 3rem;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    gap: 2rem;
+  }
 }
 
 .feature {

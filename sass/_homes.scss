@@ -5,6 +5,11 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 7rem;
+
+  @media only screen and (max-width: $bp-medium) {
+    margin: 7.5rem 0;
+    gap: 3rem;
+  }
 }
 
 .home {
